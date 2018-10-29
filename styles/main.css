@@ -227,14 +227,20 @@ p {
     .details .detailsSubHeader { 
         width: 100%;
     }
+    .details .secondaryButton, .details .primaryButton {
+        align-self: center;
+    }
 }
 
 @media only screen and (max-width: 600px) { 
     html,body {
         font-size: 13px;
         }
+    .hero {
+        padding: 1rem;
+    }
     .hero div h1 {
-        width: 95%;
+        width: 100%;
         font-size: 2.4rem;
         }
     .sticky p {

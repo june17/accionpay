@@ -224,6 +224,9 @@ p {
     .footer >div {
         width: 95%;
     }
+    .details .detailsSubHeader { 
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 600px) { 

@@ -210,6 +210,9 @@ p {
     .container-fluid, .footer {
         padding: 2rem;
     }
+    .footer {
+        padding-bottom: 4rem;
+    }
     .details h3 {
         font-size: 1.3rem;
     }

@@ -246,6 +246,10 @@ p {
     .sticky p {
         font-size: .8rem;
     }
+    .details >div {
+        margin-right: 0;
+        margin-top: 2rem;
+    }
 }
 
 

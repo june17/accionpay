@@ -191,7 +191,8 @@ p {
 
 .sticky {
     background: #DBE5E3;
-    height: 3rem;
+    margin: 0;
+    padding: 0;
     position: fixed;
     bottom: 0;
     z-index: 1;
@@ -200,6 +201,8 @@ p {
 }
 .sticky p {
     color: #508279;
+    padding: .8rem;
+    margin: 0;
 }
 
 
@@ -228,6 +231,9 @@ p {
         width: 95%;
         font-size: 2.4rem;
         }
+    .sticky p {
+        font-size: .8rem;
+    }
 }
 
 

@@ -170,7 +170,8 @@ p {
 }
 
 .footer .additionalPayment >div {
-    width: 50%;
+    width: 45%;
+    margin-right: 5%;
 }
 
 .footer h4 {
@@ -188,17 +189,16 @@ p {
     padding: 0;
 }
 
-@media only screen and (max-width: 600px) { 
-    html,body {
-        font-size: 13px;
-        }
+
+@media only screen and (max-width: 970px) { 
     .container-fluid, .footer {
         padding: 2rem;
     }
-    .hero div h1 {
-        width: 95%;
-        font-size: 2.4rem;
-        }
+    .details h3 {
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 750px) { 
     .details {
         flex-direction: column;
         }
@@ -206,3 +206,15 @@ p {
         width: 95%;
     }
 }
+
+@media only screen and (max-width: 600px) { 
+    html,body {
+        font-size: 13px;
+        }
+    .hero div h1 {
+        width: 95%;
+        font-size: 2.4rem;
+        }
+}
+
+

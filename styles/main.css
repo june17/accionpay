@@ -81,7 +81,7 @@ p {
 
 .details >div {
     margin-right: 5%;
-    height: 20rem;
+    min-height: 20rem;
     }
 
 .details > div .new{
@@ -186,4 +186,23 @@ p {
 .footer .questions div p{
     margin: 0;
     padding: 0;
+}
+
+@media only screen and (max-width: 600px) { 
+    html,body {
+        font-size: 13px;
+        }
+    .container-fluid, .footer {
+        padding: 2rem;
+    }
+    .hero div h1 {
+        width: 95%;
+        font-size: 2.4rem;
+        }
+    .details {
+        flex-direction: column;
+        }
+    .footer >div {
+        width: 95%;
+    }
 }

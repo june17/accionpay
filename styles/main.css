@@ -34,7 +34,7 @@ p {
 }
 
 .hero {
-    min-height: 30vh;
+    min-height: 28vh;
     display: flex;
     align-items: flex-end;
     padding: 2rem 2rem;
@@ -58,9 +58,9 @@ p {
     position: absolute;
     background-image: url("../images/pattern.svg");
     background-repeat: no-repeat;
-    height: 17.5rem;
+    height: 16rem;
     z-index: -1;
-    margin-left: -4rem;
+    margin-left: -5rem;
     display: block;
     width: 100%;
 }
@@ -102,7 +102,7 @@ p {
 }
 
 .details h3 {
-    color: #508279;
+    color: #4C87A0;
     font-size: 1.5rem;
     }
 .details p {
@@ -116,7 +116,7 @@ p {
     color: #292929;
     font-size: 1.4rem;
     margin-bottom: 1rem;
-    width: 85%;
+    width: 90%;
     }
 
 .details .primaryButton {
@@ -151,7 +151,7 @@ p {
     background: #508279;
     color: #ffffff;
     margin-top: 8rem;
-    padding: 2rem 6rem;
+    padding: 2rem 6rem 6rem 6rem;
 }
 
 .footer >div {
@@ -176,18 +176,21 @@ p {
 
 .footer h4 {
     font-size: 1.2rem;
+    margin-bottom: .6rem;
 }
 
 .footer .questions {
     display: flex;
+    width: 100%;
 }
 .footer .questions div {
-    margin-right: 5%;
+    margin-right: 10%;
 }
 .footer .questions div p{
     margin: 0;
     padding: 0;
 }
+
 
 .sticky {
     background: #DBE5E3;
@@ -204,6 +207,22 @@ p {
     padding: .8rem;
     margin: 0;
 }
+
+@media only screen and (max-width: 1280px) {
+    .header img {
+        height: 2rem;
+    }
+    .hero div h1 {
+        font-size: 2.8rem;
+    }
+    .details {
+        margin-top: 0;
+    }
+
+    .details .detailsSubHeader {
+        width: 100%;
+    }
+} 
 
 
 @media only screen and (max-width: 970px) { 
@@ -250,6 +269,12 @@ p {
         margin-right: 0;
         margin-top: 2rem;
     }
+}
+
+.largeText {
+    font-family: paragraphBold;
+    font-size: 1.4rem;
+    margin-top: 0;
 }
 
 

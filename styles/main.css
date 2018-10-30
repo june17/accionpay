@@ -209,6 +209,9 @@ p {
 }
 
 @media only screen and (max-width: 1280px) {
+    html,body {
+        font-size: 13px;
+    }
     .header img {
         height: 2rem;
     }

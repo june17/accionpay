@@ -34,10 +34,10 @@ p {
 }
 
 .hero {
-    min-height: 28vh;
+    min-height: 26vh;
     display: flex;
     align-items: flex-end;
-    padding: 2rem 2rem;
+    padding: 2rem 2rem 0 2rem;
     position: relative;
     margin-top: 2rem;
     }
@@ -60,7 +60,7 @@ p {
     background-repeat: no-repeat;
     height: 16rem;
     z-index: -1;
-    margin-left: -5rem;
+    margin-left: -4rem;
     display: block;
     width: 100%;
 }

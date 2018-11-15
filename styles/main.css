@@ -37,72 +37,47 @@ p {
     min-height: 26vh;
     display: flex;
     align-items: flex-end;
-    padding: 2rem 2rem 0 2rem;
     position: relative;
-    margin-top: 2rem;
+    margin: 5rem 0;
+    text-align: center;
     }
 
 .hero >div{
-    padding-bottom: 2rem;
-}
-
-.hero div h1 {
-    width: 65%;
-    font-size: 3rem;
-    line-height: 1.35;
-    padding: 0;
-    margin-bottom: 0;
-    }
-
-.hero .pattern {
-    position: absolute;
-    background-image: url("../images/pattern.svg");
-    background-repeat: no-repeat;
-    height: 16rem;
-    z-index: -1;
-    margin-left: -4rem;
-    display: block;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
     width: 100%;
 }
 
+.hero div h1 {
+    font-size: 4rem;
+    line-height: 1.35;
+    margin: 0;
+    }
+
+
 .hero div p {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-family: paragraph, sans-serif;
-    color: #707070;
+    color: #9B9B9B;
     margin: 1rem 0 0 0;
     padding: 0;
     }
 
 .details {
     display: flex;
-    margin-top: 4rem;
+    flex-direction: column;
+    align-items: center;
     }
-
 
 .details >div {
-    margin-right: 5%;
-    min-height: 20rem;
-    }
-
-.details > div .new{
     padding: 2.5rem;
-    background: #F8F8F8;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    }
-
-.details > div .old {
-    padding: 2.5rem;
+    text-align: center;
     background: #ffffff;
-    border: 1px dashed #D3D3D3;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    width: 70%;
 }
 
 .details h3 {
-    color: #4C87A0;
+    color: #2E2E2E;
     font-size: 1.5rem;
     }
 .details p {
@@ -116,26 +91,11 @@ p {
     color: #292929;
     font-size: 1.4rem;
     margin-bottom: 1rem;
-    width: 90%;
     }
-
-.details .primaryButton {
-    background: #F5821F;
-    border: none;
-    font-family: title, sans-serif;
-    font-size: 1.3rem;
-    color: #ffffff;
-    border-radius: 4rem;
-    padding: 1.1rem 2.5rem;
-    cursor: pointer;
-    margin-top: 1.5rem;
-    align-self: flex-end;
-    outline: none;
-}
 
 .details .secondaryButton {
     color: #F5821F;
-    border: 1px solid #F5821F;
+    border: 1px solid #DDDDDD;
     font-family: title, sans-serif;
     font-size: 1.3rem;
     background: #ffffff;
@@ -150,7 +110,7 @@ p {
 .footer {
     background: #508279;
     color: #ffffff;
-    margin-top: 8rem;
+    margin-top: 4rem;
     padding: 2rem 6rem 6rem 6rem;
 }
 
@@ -207,6 +167,36 @@ p {
     padding: .8rem;
     margin: 0;
 }
+
+.screenshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    .screenshot button {
+        padding: 1rem;
+        width: 18rem;
+        margin: 4rem 0;
+        font-size: 1.5rem;
+        border-radius: 2rem;
+        background: #F5821F;
+        font-family: title, sans-serif;
+        color: #ffffff;
+        border: 1px solid #F5821F;
+        cursor: pointer;
+        outline: none;
+    }
+    .screenshot button:hover {
+        color: #F5821F;
+        border: 1px solid #F5821F;
+        box-sizing: border-box;
+        background: #ffffff;
+
+    }
+    .screenshot img {
+        height: 70vh;
+    }
 
 @media only screen and (max-width: 1280px) {
     html,body {

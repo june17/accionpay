@@ -177,7 +177,7 @@ p {
     .screenshot button {
         padding: 1rem;
         width: 18rem;
-        margin: 4rem 0;
+        margin: 0 0 8rem 0;
         font-size: 1.5rem;
         border-radius: 2rem;
         background: #F5821F;
@@ -197,7 +197,10 @@ p {
     .screenshot img {
         height: 70vh;
     }
-
+    .screenshot p {
+        color: #9a9a9a; 
+        margin-left: 2rem; 
+    }
 @media only screen and (max-width: 1280px) {
     html,body {
         font-size: 13px;

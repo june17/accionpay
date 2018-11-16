@@ -96,16 +96,24 @@ p {
 .details .secondaryButton {
     color: #F5821F;
     border: 1px solid #DDDDDD;
+    display: inline-block;
     font-family: title, sans-serif;
     font-size: 1.3rem;
     background: #ffffff;
+    text-decoration: none;
     border-radius: 4rem;
     padding: 1.1rem 2.5rem;
     cursor: pointer;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     align-self: flex-end;
     outline: none;
 }
+    .secondaryButton:hover {
+        color: #ffffff;
+        background: #F5821F;
+        border: 1px solid #F5821F;
+
+    }
 
 .footer {
     background: #508279;
@@ -174,9 +182,11 @@ p {
     align-items: center;
     flex-direction: column;
 }
-    .screenshot button {
+    .screenshot a {
+        text-align: center;
         padding: 1rem;
-        width: 18rem;
+        display: inline-block;
+        padding: 1rem 3rem;
         margin: 0 0 8rem 0;
         font-size: 1.5rem;
         border-radius: 2rem;
@@ -186,8 +196,9 @@ p {
         border: 1px solid #F5821F;
         cursor: pointer;
         outline: none;
+        text-decoration: none;
     }
-    .screenshot button:hover {
+    .screenshot a:hover {
         color: #F5821F;
         border: 1px solid #F5821F;
         box-sizing: border-box;

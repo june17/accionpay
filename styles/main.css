@@ -104,7 +104,7 @@ p {
     background: #ffffff;
     text-decoration: none;
     border-radius: 4rem;
-    padding: 1.1rem 2.5rem;
+    padding:b 1.1rem 2.5rem;
     cursor: pointer;
     margin-top: 3rem;
     align-self: flex-end;
@@ -142,6 +142,17 @@ p {
 
 .footer .additionalPayment >div {
     margin-right: 10%;
+}
+
+.footer .additionalPayment button , .footer .additionalPayment a {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0;
+    font-family: paragraph;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .footer h4 {
@@ -210,10 +221,11 @@ p {
     }
     .screenshot img {
         height: 70vh;
+        margin-left: -5rem;
     }
     .screenshot p {
         color: #9a9a9a; 
-        margin-left: 2rem; 
+        margin: 0 0 1rem 0;
     }
 @media only screen and (max-width: 1280px) {
     html,body {
